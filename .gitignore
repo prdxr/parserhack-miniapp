@@ -11,6 +11,7 @@ app/staticfiles/
 
 
 *.env
+*.env.*
 nginx_conf/logs/
 */__pycache__/
 **/__pycache__/

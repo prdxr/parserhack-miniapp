@@ -31,7 +31,7 @@ def parse_new_events() -> None:
     Назначается на опеределенный периуд в админке
     """
     all_threads = [
-        get_all_events, get_hackathon_com_events, get_hacks_ai_events,
+        get_all_events, get_hackathon_com_events,
         get_ict2go_events, get_leader_id_events, get_leaders_of_digital_events,
         get_na_conferencii_events, get_2035_university_events
     ]

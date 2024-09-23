@@ -1,10 +1,10 @@
  upstream parser_hackaton{
-	 server django:8000;
+	 server django:8001;
 }
 
 
 server {
-	listen 80;
+	listen 83;
 	server_name  parser_hackatons;
 	location /static/ {
 		alias /server/staticfiles/;
@@ -18,4 +18,5 @@ server {
 	}
 
 }
+
 

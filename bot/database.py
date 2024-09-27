@@ -4,7 +4,6 @@ import sys
 from dotenv import load_dotenv
 from motor.motor_asyncio import AsyncIOMotorClient
 
-load_dotenv()
 
 DB_CONNECTION_STRING = os.getenv("DB_CONNECTION_STRING")
 DATABASE_NAME = os.getenv("DATABASE_NAME")

@@ -8,5 +8,6 @@ from handlers.on_shutdown import shutdown
 
 
 if __name__ == "__main__":
+    load_dotenv()
     executor.start_polling(dp, on_startup=start, 
                            on_shutdown=shutdown)

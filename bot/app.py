@@ -1,7 +1,5 @@
-import aiogram
 from aiogram import executor
-from loader import dp
-from jobs import *
+from dotenv import load_dotenv
 from handlers.users import *
 from handlers.on_start import start
 from handlers.on_shutdown import shutdown
